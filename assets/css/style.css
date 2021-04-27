@@ -1,0 +1,241 @@
+:root {
+    --success-color: #2ecc71;
+    --error-color: #e74c3c;
+  }
+  
+
+  *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+  }
+
+  .file_upload {
+   width: 258px;
+   height: 85px;
+   margin: 20px;
+}
+.file_upload label{
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+}
+
+.file_upload label p {
+   color: #FFF;
+    width: 100%;
+    text-align: center;
+}
+.file_upload .header input{
+   display:none;
+}
+.btn-news-edit-form{
+   position: absolute;
+    bottom: 30px;
+    left: 350px;
+    width: 250px;
+    height: 85px;
+    background: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px 5px 0 0;
+    font-size: 25px;
+    font-weight: 400;
+    color: #515151;
+    border:1px solid #515151;
+}
+.btn-news-form{
+   position: absolute;
+    bottom: 133px;
+    left: 350px;
+    width: 250px;
+    height: 85px;
+    background: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px 5px 0 0;
+    font-size: 25px;
+    font-weight: 400;
+    color: #515151;
+    border:1px solid #515151;
+}
+
+.btn-news-form:hover{
+   background: #515151;
+   color:white;
+}
+.btn-news-edit-form:hover{
+   background: #515151;
+   color:white;
+}
+
+.file_upload .header {
+   width: 100%;
+   height: 85px;
+   background: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 5px 5px 0 0;
+   border:1px solid #515151;
+}
+
+.file_upload .header:hover{
+   background: #515151;
+   cursor: pointer;
+}
+
+.file_upload .header p {
+   height: 85px;
+   width: 256px;
+   color: #515151;
+}
+.file_upload .header p:hover{
+   color: #fff;
+   cursor: pointer;
+}
+
+.file_upload .header p i.fa {
+   margin-right: 10px;
+   margin-top: 35px;
+}
+
+.file_upload .header p span {
+   font-size: 2rem;
+   font-weight: 100;
+}
+
+
+
+.file_upload .header p span span {
+   font-weight: 600;
+}
+
+.file_upload .body {
+   background: #FFF;
+   width: 100%;
+   height: calc(100% - 85px);
+   border-radius: 0 0 5px 5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+}
+
+.file_upload .body input[type="file"] {
+   display: none;
+}
+
+.file_upload .body i.fa {
+   color: #191919;
+    margin-bottom: -2px;
+    float: left;
+    position: absolute;
+    left: 76px;
+}
+
+.file_upload .body p{
+   padding-left: 50px;
+}
+
+.file_upload .body p strong {
+   color: #6e6e6e;
+}
+ 
+ .form-group small{
+  color: var(--error-color);
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+ }
+ .form-group.error small{
+    visibility: visible; 
+ }
+/*
+////////////////////////////////////////////////////////////////////////////////////
+*/
+
+.btn-add-form{
+   width: 250px;
+   height: 56px;
+   background: #fff;
+   padding: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 5px 5px 0 0;
+   font-size: 25px;
+   font-weight: 400;
+   color: #515151;
+   border:1px solid #515151;
+}
+
+.btn-add-form:hover{
+   background: #515151;
+   color:white;
+}
+.btn_update_form{
+   position: absolute;
+    bottom: 32px;
+    left: 367px;
+    height: 81px;
+}
+
+/*
+////////////////////////////////////////////////////////////////////////////////////
+*/
+ .select2-container--default .select2-selection--multiple .select2-selection__choice__display {
+   cursor: default;
+   padding-left: 22px !important;
+   padding-right: 5px;
+}
+footer {
+   margin-left: 31px !important;
+}
+
+/* 
+/////////////////////////////////////////cke editor/////////////
+*/
+.ck.ck-editor__main>.ck-editor__editable{
+   min-height: 200px;
+}
+
+.list-group{
+   cursor: pointer;
+}
+
+/* /////////////////////////////////////////////////////// */
+.display_term{
+   padding: 5px;
+    border-radius: 12px;
+    margin: 6px;
+    display: inline-block;
+}
+.show_text{
+   cursor: pointer;
+   text-decoration: underline;
+}
+
+.text-info-edit{
+   color: #111e7a !important;
+}
+.image-style-side{
+   float: right;
+   width: 25%;
+   padding: 10px;
+}
+img{
+   width:100%;
+}
+#searchForm{
+   display:flex;
+   padding: 10px;
+   margin-bottom: 26px;
+}
+
+
